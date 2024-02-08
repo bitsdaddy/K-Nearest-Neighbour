@@ -8,9 +8,9 @@ The KNN algorithm is a simple and effective method for classification and regres
 
 - **Formula for Classification**:
 
-  - For a new data point \( x_q \), the predicted class label \( y_q \) is determined by the majority class among its k nearest neighbors.
+  - For a new data point $\( x_q \)$, the predicted class label \( y_q \) is determined by the majority class among its k nearest neighbors.
 
-  $$\[ y_q = \text{argmax} \left( \sum_{i=1}^{k} I(y_i = c) \right) \]$$
+  $$\ y_q = \text{argmax} \left( \sum_{i=1}^{k} I(y_i = c) \right) \$$
 
   where \( y_i \) is the class label of the \( i \)th nearest neighbor, \( c \) represents the classes, and \( I \) is the indicator function.
 
