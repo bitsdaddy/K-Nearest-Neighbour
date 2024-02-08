@@ -8,17 +8,17 @@ The KNN algorithm is a simple and effective method for classification and regres
 
 - **Formula for Classification**:
 
-  - For a new data point $ x_q $, the predicted class label $( \y_q )$ is determined by the majority class among its k nearest neighbors.
+  - For a new data point \( x_q \), the predicted class label \( y_q \) is determined by the majority class among its k nearest neighbors.
 
-  $$ y_q = \text{argmax} \left( \sum_{i=1}^{k} I(y_i = c) \right) $$
+  \[ y_q = \text{argmax} \left( \sum_{i=1}^{k} I(y_i = c) \right) \]
 
-  where $ y_i $ is the class label of the $ i $th nearest neighbor, $ c $ represents the classes, and $ I $ is the indicator function.
+  where \( y_i \) is the class label of the \( i \)th nearest neighbor, \( c \) represents the classes, and \( I \) is the indicator function.
 
 - **Distance Metric**: Euclidean distance is commonly used to measure the similarity between data points in KNN.
 
-  $$ d(x_i, x_q) = \sqrt{\sum_{j=1}^{n} (x_{ij} - x_{qj})^2} $$
+  \[ d(x_i, x_q) = \sqrt{\sum_{j=1}^{n} (x_{ij} - x_{qj})^2} \]
 
-  where $ x_i $ and $ x_q $ are data points, $ x_{ij} $ and $ x_{qj} $ are the $ j $th features of $ x_i $ and $ x_q $ respectively, and $ n $ is the number of features.
+  where \( x_i \) and \( x_q \) are data points, \( x_{ij} \) and \( x_{qj} \) are the \( j \)th features of \( x_i \) and \( x_q \) respectively, and \( n \) is the number of features.
 
 - **Choosing k**: The choice of k influences the model's performance and can be determined using techniques like cross-validation or grid search.
 
