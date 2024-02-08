@@ -18,7 +18,7 @@ The KNN algorithm is a simple and effective method for classification and regres
 
   $$\ d(x_i, x_q) = \sqrt{\sum_{j=1}^{n} (x_{ij} - x_{qj})^2} \$$
 
-  where $\ x_i \$, and $\ x_q \$, are data points, $x_{ij}$ and $\ x_{qj} \$, are the $j$ th features of $\ x_i \$, and $\ x_q \$, respectively, and $n$ is the number of features.
+  where $x_i$ and $x_q$ are data points, $x_{ij}$ and $x_{qj}$ are the $j$ th features of $x_i$ and $x_q$, respectively, and $n$ is the number of features.
 
 - **Choosing k**: The choice of k influences the model's performance and can be determined using techniques like cross-validation or grid search.
 
