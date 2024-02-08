@@ -12,7 +12,7 @@ The KNN algorithm is a simple and effective method for classification and regres
 
   $$\ y_q = \text{argmax} \left( \sum_{i=1}^{k} I(y_i = c) \right) \$$
 
-  where $\ y_i \$, is the class label of the $\ i $th nearest neighbor, $\ c \$, represents the classes, and $\ I \$, is the indicator function.
+  where $\ y_i \$, is the class label of the $i$ th nearest neighbor, $\ c \$, represents the classes, and $\ I \$, is the indicator function.
 
 - **Distance Metric**: Euclidean distance is commonly used to measure the similarity between data points in KNN.
 
